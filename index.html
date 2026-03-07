@@ -8,8 +8,29 @@
 <body>
     <h1>Assignment 4 Writeup</h1>
     <h2>Data: Abortion Data by U.S. State from the Guttmacher Institute</h2>
-    <h3>Data Proposition: A large decline in a state's number of available abortion clinics directly forces residents to travel out of state for abortion care, instead of reducing the overall number of abortions sought by its residents.</h3>
-    <h4>Proof that Proposition is True</h4>
-    <h4>Proof that Proposition is False</h4>
+    <h3>Data Proposition</h3>
+    States with the most significant reductions in available abortion clinics and resources experienced the most dramatic decreases in their residents' abortion rates between 2017 and 2020, and states with most dramatic abortion rate decreases were the ones with the most significant reductions in available abortion clinics.
+    <h3>Proof that Proposition is True</h3>
+    <image src="images/fig-1.png" style="width: 60%; height: 60%;"></image>
+    <figcaption><b>Figure 1: Change in Abortion Clinics vs. Change in Abortion Rate for U.S. States From 2017-2020.</b> Each state's change in abortion clinics is plotted against its change in abortion rate, from 2017 to 2020. The yellow axis shows 0 change in abortion clinics and the purple axis shows 0 change in abortion rate. The overall trend line indicates a direct correlation between abortion clinic rate and abortion rate, which proves the proposition. The red points are a few special states that have especially large decreases in both rates.</figcaption>
+    <h4>Design Rationale</h4>
+    <ul>
+        <li>
+            <b>Decision 1: I excluded a couple of outlier states--specifically, Kentucky and Oregon--by removing the specific data points from my plot.</b> <i>Deceptiveness: -0.5. </i> I only excluded 2 outliers out of 51 states/territories, which is not a significant proportion. Also, excluding outliers is not very deceptive unless it severely skews the data, which it doesn't, since the trend line already had positive slope before I removed the outliers. However, this is still slight deception, because I chose to exclude the outliers not because they obscured the main message of the data but because they had a decrease in abortion rate despite a high increase in abortion clinics, meaning that they would disprove my claim--this means that I purposely removed datapoints that disprove my claim. This furthered the persuasiveness of my data while not being too obvious, since it's hard to notice 2 out of 51 datapoints missing unless one is directly counting--I hid the legend for states and didn't label all of the individual states to further conceal this choice. I could have not done this and my visualization would still have been quite persuasive, but I still chose to because it definitely improved the persuasiveness.
+        </li>
+        <li>
+            <b>Decision 2: I labeled some points with especially large decreases in both abortion clinic number and abortion rates.</b> <i>Deceptiveness: 1.5.</i> This decision didn't involve hiding, removing, or changing any data points--instead, all I did was label a few points that would further illustrate my proposition (since they have especially strong direct correlation). This choice helped illustrate my proposition well, since it shows that the states that have a large decrease in abortion clinic rates also experience a decrease in abortion rates. However, this isn't fully earnest, since I only labeled these points and not the others. I considered labeling all points with their values, but I decided not to because some other points don't prove my proposition as effectively (for example, one with a large decrease in one rate and a slight increase in another rate). (Also, doing so would clutter up the graph too much).
+        </li>
+        <li>
+            <b>Decision 3: I highlighted the axes for both 0 abortion rate change and 0 abortion clinic rate change.</b> <i>Deceptiveness: 2.</i> This decision was completely not deceptive, since it highlighted axes without changing, hiding, or removing any data points or values. Also, even though it mainly furthers my proposition, it inadvertently highlights the fact that there are some points that show a negative correlation (increase in one rate, decrease in another), and I did not do anything to hide this. I chose to do this to give a better visual understanding of the four data quadrants--for example, the upper right and lower left (traditionally 1st and 3rd) quadrants are positive correlation between the rates, while the other two are negative correlation. It's clear that most points are in the 1st and 3rd quadrants, but unfortunately this visualization shows that there are some in the other 2 quadrants. This isn't theoretically a disproof of my proposition, since I did not say that the changes were fully directly correlated, and more that large decreases in one are associated with large decreases in another. Highlighting one axis but not the other could maybe hide this fact better, but I chose to accentuate all quadrants (instead of half-planes) because the benefits of proving my proposition outweigh the minor drawbacks of not having a strong direct correlation.
+        </li>
+    </ul>
+    <h3>Proof that Proposition is False</h3>
+    <h4>Design Rationale</h4>
+    <ul>
+        <li>
+            
+        </li>
+    </ul>
 </body>
 </html>
